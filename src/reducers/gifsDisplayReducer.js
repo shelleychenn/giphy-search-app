@@ -1,5 +1,5 @@
 //REDUCER - MODIFY STORE BASED ON ACTION
-const gifsDisplayReducer = (state = {}, action) => {
+const gifsDisplayReducer = (state = [], action) => {
   switch (action.type) {
     case 'SEARCH': {
       return action.payload;
